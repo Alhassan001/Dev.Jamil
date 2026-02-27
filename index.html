@@ -4,88 +4,143 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Abdullahi Jamil Muhammad - GHAZZY UPDATE</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      line-height: 1.6;
-      background: #f4f4f4;
-      color: #333;
-      padding: 20px;
-      max-width: 800px;
-      margin: auto;
-    }
-    header {
-      text-align: center;
-      margin-bottom: 40px;
-    }
-    h1 {
-      margin: 0;
-    }
-    section {
-      margin-bottom: 30px;
-    }
-    .section-title {
-      background: #333;
-      color: #fff;
-      padding: 10px;
-    }
-    ul {
-      padding-left: 20px;
-    }
-    a {
-      color: #0066cc;
-      text-decoration: none;
-    }
-  </style>
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;700;800&family=DM+Sans:ital,wght@0,300;0,400;1,300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
 </head>
+
 <body>
-  <header>
-    <h1>Abdullahi Jamil Muhammad</h1>
-    <p><strong>Aspiring ASP.NET Instructor | Software Engineering Student | Tech Enthusiast</strong></p>
-    <p>Kano, Nigeria | Portfolio of ASP.NET Projects</p>
+   <header>
+    <h1>Abdullahi Jamil <span>Muhammad</span></h1>
+    <p class="tagline">
+      Aspiring ASP.NET Instructor
+      <span class="sep">|</span>
+      Software Engineering Student
+      <span class="sep">|</span>
+      Tech Enthusiast
+    </p>
+    <p class="location">📍 Kano, Nigeria &nbsp;·&nbsp; Portfolio of ASP.NET Projects</p>
   </header>
 
-  <section>
-    <h2 class="section-title">👨‍🏫 About Me</h2>
-    <p>I am a passionate software engineering student with a background in Python, web technologies, and teaching. While I am new to ASP.NET, I am rapidly building hands-on knowledge to teach it confidently. I combine my teaching experience with structured, real-world learning approaches to make web development with ASP.NET accessible to beginners.</p>
-  </section>
+  <main>
 
-  <section>
-    <h2 class="section-title">🔨 Tools & Skills</h2>
-    <ul>
-      <li>💻 Programming: Python, HTML/CSS, JavaScript</li>
-      <li>🌐 Currently Learning: ASP.NET (C#, Razor Pages, MVC)</li>
-      <li>🎓 Teaching: Conducted Python crash courses and mentoring sessions</li>
-      <li>🧠 Skills: Fast Learner, Strong Communicator, Curriculum Planning</li>
-    </ul>
-  </section>
+    <!-- ABOUT ME -->
+    <section>
+      <h2 class="section-title">
+        <i data-lucide="user-round"></i> About Me
+      </h2>
+      <div class="card-body">
+        <p>I am a passionate software engineering student with a background in Python, web technologies, and teaching. While I am new to ASP.NET, I am rapidly building hands-on knowledge to teach it confidently. I combine my teaching experience with structured, real-world learning approaches to make web development with ASP.NET accessible to beginners.</p>
+      </div>
+    </section>
+   
 
-  <section>
-    <h2 class="section-title">🚧 Current Projects (ASP.NET)</h2>
-    <ul>
-      <li>Simple "Student Record Manager" in ASP.NET Core MVC</li>
-      <li>CRUD Application with Razor Pages</li>
-      <li>Exploring Blazor for interactive UI</li>
-    </ul>
-  </section>
+    <!-- TOOLS & SKILLS -->
+    <section>
+      <h2 class="section-title">
+        <i data-lucide="wrench"></i> Tools &amp; Skills
+      </h2>
+      <div class="card-body">
+        <div class="skill-group">
+          <div class="skill-row">
+            <span class="skill-label">Programming</span>
+            <div class="tags">
+              <span class="tag">Python</span>
+              <span class="tag">HTML / CSS</span>
+              <span class="tag">JavaScript</span>
+            </div>
+          </div>
+          <div class="skill-row">
+            <span class="skill-label">Learning Now</span>
+            <div class="tags">
+              <span class="tag">ASP.NET Core</span>
+              <span class="tag">C#</span>
+              <span class="tag">Razor Pages</span>
+              <span class="tag">MVC</span>
+            </div>
+          </div>
+          <div class="skill-row">
+            <span class="skill-label">Teaching</span>
+            <div class="tags">
+              <span class="tag">Python Crash Courses</span>
+              <span class="tag">Mentoring Sessions</span>
+            </div>
+          </div>
+          <div class="skill-row">
+            <span class="skill-label">Soft Skills</span>
+            <div class="tags">
+              <span class="tag">Fast Learner</span>
+              <span class="tag">Strong Communicator</span>
+              <span class="tag">Curriculum Planning</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
-  <section>
-    <h2 class="section-title">📚 Learning Roadmap</h2>
-    <p>I am following a 21-day plan to quickly and deeply understand ASP.NET fundamentals, including:</p>
-    <ul>
-      <li>C# Fundamentals & Object-Oriented Programming</li>
-      <li>ASP.NET Razor Pages and MVC</li>
-      <li>Entity Framework and basic deployments</li>
-    </ul>
-  </section>
+    <!-- CURRENT PROJECTS -->
+    <section>
+      <h2 class="section-title">
+        <i data-lucide="folder-open"></i> Current Projects (ASP.NET)
+      </h2>
+      <div class="card-body">
+        <ul class="styled-list">
+          <li>Simple "Student Record Manager" in ASP.NET Core MVC</li>
+          <li>CRUD Application with Razor Pages</li>
+          <li>Exploring Blazor for Interactive UI</li>
+        </ul>
+      </div>
+    </section>
 
-  <section>
-    <h2 class="section-title">📞 Contact</h2>
-    <ul>
-      <li>Email: yourname@email.com</li>
-      <li>GitHub: <a href="#">github.com/bnUsmann22</a></li>
-      <li>LinkedIn: <a href="#">linkedin.com/in/Abdullahi Jamil</a></li>
-    </ul>
-  </section>
+    <!-- LEARNING ROADMAP -->
+    <section>
+      <h2 class="section-title">
+        <i data-lucide="map"></i> Learning Roadmap
+      </h2>
+      <div class="card-body">
+        <p style="margin-bottom: 14px;">I am following a 21-day plan to quickly and deeply understand ASP.NET fundamentals, including:</p>
+        <ul class="styled-list">
+          <li>C# Fundamentals &amp; Object-Oriented Programming</li>
+          <li>ASP.NET Razor Pages and MVC</li>
+          <li>Entity Framework and Basic Deployments</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section>
+      <h2 class="section-title">
+        <i data-lucide="contact-round"></i> Contact
+      </h2>
+      <div class="card-body">
+        <div class="contact-row">
+
+          <!-- Email chip -->
+          <a href="mailto:bn.usmann@email.com" class="contact-chip chip-email">
+            <i data-lucide="mail"></i>
+            <span>bn.usmann@email.com</span>
+          </a>
+
+          <!-- GitHub chip -->
+          <a href="https://github.com/bnUsmann22" target="_blank" rel="noopener" class="contact-chip chip-github">
+            <i data-lucide="github"></i>
+            <span>github.com/bnUsmann22</span>
+          </a>
+
+          <!-- LinkedIn chip -->
+          <a href="https://linkedin.com/in/abdullahi-jamil" target="_blank" rel="noopener" class="contact-chip chip-linkedin">
+            <i data-lucide="linkedin"></i>
+            <span>Abdullahi Jamil</span>
+          </a>
+
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <script src="https://unpkg.com/lucide@latest"></script>
+<script>
+  lucide.createIcons();
+</script>
 </body>
 </html>
